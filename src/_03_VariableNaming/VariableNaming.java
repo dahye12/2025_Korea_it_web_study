@@ -9,5 +9,9 @@ public class VariableNaming {
     //4. 소문자로 시작하고 두번째부터는 대문자
     // 파스칼 표기법(쌍봉낙타) => LastName -> 변수명,메소드명
     // 카멜 표기법 (단봉낙타) => lastName -> 변수명, 메소드명
-    // 5. 예약어 사용불가 (public, static
+    // 5. 예약어 사용불가 (public, static)
+
+    // 상수(절대 변하지 않는 데이터) -> 상수명 다 대문자
+    final String COUNTRY_CODE = "US";
 }
+
